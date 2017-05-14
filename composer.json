@@ -1,0 +1,17 @@
+{
+  "name": "paragonie/aes-xgcm",
+  "description": "Extended-nonce AES-GCM",
+  "license": "CC0",
+  "autoload": {
+    "files": [
+      "lib/aes-xgcm.php"
+    ]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6",
+    "vimeo/psalm": "*"
+  },
+  "require": {
+    "php": "^7.1"
+  }
+}
