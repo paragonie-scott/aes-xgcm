@@ -4,7 +4,7 @@
  
  * Nonce size: 352 bits (44 bytes)
  * Key size: 256 bits (32 bytes)
- * Tag size: 256 bits (32 bytes)
+ * Tag size: 128 bits (16 bytes)
  
  Unlike traditional AES-GCM, you don't need to worry about rekeying after a small number of messages.
  The first 256 bits of the nonce are used along with the key to generate a sub-key for AES-GCM. The
